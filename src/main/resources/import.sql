@@ -1,0 +1,9 @@
+/* Populate tabla clientes */
+INSERT INTO clientes (nombre, apellido, correo, fecha_crea, estado ,usuario_crea, direccion, ruc) VALUES('Andrés', 'Guzmán', 'profesor@bolsadeideas.com', '2018-01-01', 1,'lsanchez','Ambato','1425786945');
+INSERT INTO clientes (nombre, apellido, correo, fecha_crea, estado ,usuario_crea, direccion, ruc) VALUES('Linus', 'Torvalds', 'linus.torvalds@gmail.com', '2018-01-03', 1,'lsanchez','Ambato','0236547812');
+INSERT INTO clientes (nombre, apellido, correo, fecha_crea, estado ,usuario_crea, direccion, ruc) VALUES('Rasmus', 'Lerdorf', 'rasmus.lerdorf@gmail.com', '2018-01-04', 1,'lsanchez','Ambato','1803498367');
+INSERT INTO clientes (nombre, apellido, correo, fecha_crea, estado ,usuario_crea, direccion, ruc) VALUES('Richard', 'Helm', 'richard.helm@gmail.com', '2018-02-10', 1,'lsanchez','Ambato','1402472256');
+INSERT INTO clientes (nombre, apellido, correo, fecha_crea, estado ,usuario_crea, direccion, ruc) VALUES('Ralph', 'Johnson', 'ralph.johnson@gmail.com', '2018-02-18', 1,'lsanchez','Ambato','1803498367');
+INSERT INTO clientes (nombre, apellido, correo, fecha_crea, estado ,usuario_crea, direccion, ruc) VALUES('John', 'Vlissides', 'john.vlissides@gmail.com', '2018-02-28', 1,'lsanchez','Ambato','15669874502');
+INSERT INTO clientes (nombre, apellido, correo, fecha_crea, estado ,usuario_crea, direccion, ruc) VALUES('Dr. James', 'Gosling', 'james.gosling@gmail.com', '2018-03-03', 1,'lsanchez','Ambato','1803498367');
+INSERT INTO clientes (nombre, apellido, correo, fecha_crea, estado ,usuario_crea, direccion, ruc) VALUES('Tornado', 'Roe', 'tornado.roe@gmail.com', '2018-03-05', 1,'lsanchez','Ambato','1803498367');
