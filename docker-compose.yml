@@ -1,0 +1,18 @@
+    version: '3'
+
+    services:
+      mysql:
+        image: mysql:5.7
+        container_name: mysql57practice
+        ports:
+          - 3306:3306
+        environment:
+          - MYSQL_ROOT_PASSWORD=practice
+          - MYSQL_DATABASE=practice
+          - MYSQL_USER=practice
+          - MYSQL_PASSWORD=practice
+        volumes:
+          - mysql_data:/var/lib/mysql
+
+    volumes:
+      mysql_data:
